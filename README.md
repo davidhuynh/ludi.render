@@ -1,1 +1,1 @@
-ludi renderer library.
+ludi render library.
