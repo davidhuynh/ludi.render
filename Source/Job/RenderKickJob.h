@@ -25,6 +25,11 @@
 
 namespace ludi {
 namespace render {
+    /*! */
+    class RenderKickJob : public Job {
+    public:
+        virtual void operator () (tbb::flow::continue_msg &message) override;
+    }
 
 } // render
 } // ludi
